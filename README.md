@@ -4,11 +4,8 @@ Floating point calculator units for RTL implementation in SV
 # RTL files
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-fpu_add.sv  c = a+b|
-fpu_mult.sv  c = a*b|
-fpu_dsp.sv  z = (a*b)+c;|
+|    File  | Function     |
+| -------- | ------------ |
+| fpu_add  | c = a+b      |
+| fpu_mult |c = a x b     |
+| fpu_dsp  |z = (a x b)+c |
